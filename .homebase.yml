@@ -1,7 +1,7 @@
 directory: ~/.homebase # where your data will be stored
 httpMirror: false       # enables http mirrors of the dats
 ports:
-  http: 80             # HTTP port for redirects or non-SSL serving
+  http: 83             # HTTP port for redirects or non-SSL serving
   https: 443           # HTTPS port for serving mirrored content & DNS data
 #letsencrypt:           # set to false to disable lets-encrypt
 #  email: bob@foo.com   # you must provide your email to LE for admin
