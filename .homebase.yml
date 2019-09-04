@@ -12,7 +12,7 @@ ports:
 #  port: 8089           # port for accessing the metrics dashboard
 
 # enable publishing to Homebase from Beaker & Dat-CLI
-webapi:                # set to false to disable
+webapi: false               # set to false to disable
   username: robert     # the username for publishing from Beaker/Dat-CLI
   password: hunter2    # the password for publishing from Beaker/Dat-CLI
 #  domain: foo.bar
